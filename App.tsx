@@ -5,6 +5,7 @@ import React from 'react';
 import { SafeAreaProvider, SafeAreaView } from 'react-native-safe-area-context';
 import FetcDataScreen from './src/screens/fetch-data.screen';
 import FetcDataScreen02 from './src/screens/fetch-data02.screen';
+import ModalScreen from './src/screens/model.screen';
 
 // Not: IOS için safe area view önemli
 
@@ -17,7 +18,8 @@ export default function App() {
 				{/* <CounterScreen /> */}
 				{/* <FetcDataScreen /> */}
 			</View>
-			<FetcDataScreen02 />
+			{/* <FetcDataScreen02 /> */}
+			<ModalScreen />
 		</SafeAreaProvider>
 	);
 }
